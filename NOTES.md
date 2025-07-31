@@ -1,4 +1,4 @@
-## What I learned, that I didn't know before
+## Took some notes from what I learned in the tutorial
 
 ### Landscape:
 - You can hold shift while using tools (like sculpt) to inverse them.
