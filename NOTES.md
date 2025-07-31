@@ -1,8 +1,3 @@
-# Unreal Engine Tutorial
-Just me, learning UE5 again
-
-Tutorial: https://youtu.be/6UlU_FsicK8?si=XmViRdgQcCJIb4xO
-
 ## What I learned, that I didn't know before
 
 ### Landscape:
