@@ -58,7 +58,7 @@
   - If we drag&drop the variable (which has a struct type) and choose 'get', we can right click on the blue pin and decide to 'Split Struct pin'.
   - It's basically a variable which stores multiple variables in it
   - Removing an existing variable from struct can cause issues in blueprints.
-  - 
+  - You can have array of structs
 
 - Enums:
   - You can create 'enum' (content browser -> new -> blueprints -> enumeration).
