@@ -44,6 +44,12 @@
     - Types: Structure, Interface, Object Types, Enum (Enumeration)
     - Most common: Hit Result, Actor, 
 
+- Structs:
+  - You can create a 'struct' (content browser -> new -> blueprints -> structure), then create some variables. Then go to blueprint event graph -> right click -> add -> 'name of structure' -> Options: Break, Make, Set...
+  - Struct (name of the structure) can also be a type of variable.
+  - If we drag&drop the variable (which has a struct type) and choose 'get', we can right click on the blue pin and decide to 'Split Struct pin'.
+  - It's basically a variable which stores multiple variables in it
+
 ### Misc
 - You can hit 'end' on your keyboard to snap items to the ground (landscape) in the level.
 - Anything that can be placed in a level is called an 'Actor'
