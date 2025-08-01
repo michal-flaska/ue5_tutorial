@@ -72,9 +72,14 @@
   - You can add input/output parameters for a function in its details panel
   - You can create something called 'Local Variables' in functions.
   - You can not add a delay node in functions.
+  - Can be called from other blueprints. (can be disabled by setting access specifier to private)
 
 - Macros:
   - You can not add a delay node in functions. That's why we use macros
+  - Can not be called from other blueprints.
+
+- Collapsed Graph
+  - Notes are in `Content/Blueprints/BP_CollapsedGraph`
 
 ### Misc
 - You can hit 'end' on your keyboard to snap items to the ground (landscape) in the level.
