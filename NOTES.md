@@ -3,6 +3,7 @@
 ### Landscape:
 - You can hold shift while using tools (like sculpt) to inverse them.
   - For example, you don't sculpt a hill but a hole.
+- You can hit 'end' on your keyboard to snap items to the ground (landscape) in the level.
 
 ### Blueprints
 - There are level blueprints
@@ -93,7 +94,6 @@
   - Note: avoid using loops with larger data sets (>100) and use c++ instead. Why? C++ is faster than blueprint
 
 ### Misc
-- You can hit 'end' on your keyboard to snap items to the ground (landscape) in the level.
 - Anything that can be placed in a level is called an 'Actor'
 - Light Movability:
   - Types can be changed in Transform section in the details panel
@@ -101,3 +101,4 @@
     - Static: Can't be changed in-game
     - Stationary: Can only change color and intensity in-game, but cant move
     - Movable: Can be moved and changed in-game
+- 'vice versa' means 'the other way around' in english
