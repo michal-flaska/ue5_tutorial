@@ -13,7 +13,7 @@
   - Hold CTRL and drag Variable into the event graph to automatically GET the vector.
   - Click on blueprint box, and hit CTRL + D, you can duplicate it.
   - Hold D and click LMB to add a delay in blueprint.
-  - 
+  - Hold B and click LMB to add `if` (branch) statement.
 
 - That dots are called 'pins'. Atleast hey call them 'pins'
 - That 'little white shit' is called an execution pin.
@@ -36,6 +36,7 @@
 
 - Variable Types (I already know most of the basic ones, but its better to write them down):
   - Boolean: True / False
+    - You can use `select` for boolean in event graph.
   - Byte: Unsigned 8-bit integer
   - Integer: Whole number
   - Integer64: Whole number but for 64bit architecture, meaning it can be larger
@@ -80,6 +81,10 @@
 
 - Collapsed Graph
   - Notes are in `Content/Blueprints/BP_CollapsedGraph`
+
+- Branching
+  - There was just a branch :(
+  - BUT, You can use `select` for boolean in event graph :)
 
 ### Misc
 - You can hit 'end' on your keyboard to snap items to the ground (landscape) in the level.
