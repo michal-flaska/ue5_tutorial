@@ -11,6 +11,8 @@
   - Hold D and press LMB -> Creates Delay node
   - Hold ALT and press LMB on Exec arrow (the white little shit where you drag spaghetti - or how to call it) -> Deletes spaghetti that is connecting two blocks.
   - Hold CTRL and drag Variable into the event graph to automatically GET the vector.
+  - Click on blueprint box, and hit CTRL + D, you can duplicate it.
+  - 
 
 - That dots are called 'pins'. Atleast hey call them 'pins'
 - That 'little white shit' is called an execution pin.
@@ -49,6 +51,16 @@
   - Struct (name of the structure) can also be a type of variable.
   - If we drag&drop the variable (which has a struct type) and choose 'get', we can right click on the blue pin and decide to 'Split Struct pin'.
   - It's basically a variable which stores multiple variables in it
+  - Removing an existing variable from struct can cause issues in blueprints.
+  - 
+
+- Enums:
+  - You can create 'enum' (content browser -> new -> blueprints -> enumeration).
+  - Enumerator is a number between 0 and 256
+  - Enum (name of the enumeration) can also be a type of variable.
+    - After you assign a enum as a type of variable, you can set Default value of the enum in the variable details (in blueprint).
+  - You can assign `Get "VariableName"` to print string (if it's enum).
+  - If you drag&drop the variable (which has an enum type) and choose 'get', you can drag a node out of it to create `Switch on "EnumName"` where you can drag more nodes out of it based on enumerations names in your enum.
 
 ### Misc
 - You can hit 'end' on your keyboard to snap items to the ground (landscape) in the level.
