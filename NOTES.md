@@ -16,6 +16,7 @@
 
 - That dots are called 'pins'. Atleast hey call them 'pins'
 - That 'little white shit' is called an execution pin.
+- If you double click on node, it will create a separate pin. It is called 'reroute node'
 
 - Get Actor Location is a function, but it does not have execution pin. Then it is called a 'pure function'
 
@@ -23,6 +24,8 @@
   - It is called every frame
 
 - Blueprint is based on C++
+
+- Using spaces in names of functions, variables, etc. is not a good practice and can often lead to problems. Use 'Pascal Case' (example: `MyVariableName` -> each word starts with uppercase).
 
 - Difference between Print String & Print Text
   - Print String: For debugging. Shows messages in the editor (top-left screen) and output log. Uses colored plain text.
@@ -61,6 +64,11 @@
     - After you assign a enum as a type of variable, you can set Default value of the enum in the variable details (in blueprint).
   - You can assign `Get "VariableName"` to print string (if it's enum).
   - If you drag&drop the variable (which has an enum type) and choose 'get', you can drag a node out of it to create `Switch on "EnumName"` where you can drag more nodes out of it based on enumerations names in your enum.
+
+- Functions:
+  - Function is basically a block of code which adds functionality to your program. 
+  - You can add input/output parameters for a function in its details panel
+  - You can create something called 'Local Variables' in functions.
 
 ### Misc
 - You can hit 'end' on your keyboard to snap items to the ground (landscape) in the level.
