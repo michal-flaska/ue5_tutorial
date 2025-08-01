@@ -12,11 +12,13 @@
   - Hold ALT and press LMB on Exec arrow (the white little shit where you drag spaghetti - or how to call it) -> Deletes spaghetti that is connecting two blocks.
   - Hold CTRL and drag Variable into the event graph to automatically GET the vector.
   - Click on blueprint box, and hit CTRL + D, you can duplicate it.
+  - Hold D and click LMB to add a delay in blueprint.
   - 
 
 - That dots are called 'pins'. Atleast hey call them 'pins'
 - That 'little white shit' is called an execution pin.
 - If you double click on node, it will create a separate pin. It is called 'reroute node'
+- You can add 'Sequence' to split 1 execution pins into more.
 
 - Get Actor Location is a function, but it does not have execution pin. Then it is called a 'pure function'
 
@@ -69,6 +71,10 @@
   - Function is basically a block of code which adds functionality to your program. 
   - You can add input/output parameters for a function in its details panel
   - You can create something called 'Local Variables' in functions.
+  - You can not add a delay node in functions.
+
+- Macros:
+  - You can not add a delay node in functions. That's why we use macros
 
 ### Misc
 - You can hit 'end' on your keyboard to snap items to the ground (landscape) in the level.
