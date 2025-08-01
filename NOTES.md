@@ -1,5 +1,10 @@
 ## Took some notes from what I learned in the tutorial
 
+### Viewport
+- Shortcuts:
+  - You can hit G to switch to Game View
+  - QWERT for Tools (e.g. rotation, move, scale, etc.)
+
 ### Landscape:
 - You can hold shift while using tools (like sculpt) to inverse them.
   - For example, you don't sculpt a hill but a hole.
