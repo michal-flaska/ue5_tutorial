@@ -86,6 +86,12 @@
   - There was just a branch :(
   - BUT, You can use `select` for boolean in event graph :)
 
+- While Loop
+  - `Condition`: (as long as its true, `Loop Body` will be executed)
+  - `Loop Body`: Content to loop
+  - `Completed`: What to do if loop is complete and condition is false
+  - Note: avoid using loops with larger data sets (>100) and use c++ instead. Why? C++ is faster than blueprint
+
 ### Misc
 - You can hit 'end' on your keyboard to snap items to the ground (landscape) in the level.
 - Anything that can be placed in a level is called an 'Actor'
