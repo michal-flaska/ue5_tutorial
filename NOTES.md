@@ -111,6 +111,8 @@
     - However, `set timer by event` is pointless (as the guy in tutorial said), because you can actually refer to the event by using the function itself so, most of the time you will be using `set timer by function name`.
   - Difference between delay and timer is that timer is going to be very precise (usually up to micro or even nano seconds)
 
+- Its way better (and recommended) to use interfaces instead of casting for saving resources. But in the first parts of tutorial we are doing casting because of its simplicity
+
 ### Misc
 - Anything that can be placed in a level is called an 'Actor'
 - Light Movability:
