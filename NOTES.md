@@ -56,7 +56,7 @@
   - Transform: Transform is a struct, which contains `Vector, Rotator, Vector` (Location, Rotation and Scale)
   - Other:
     - Types: Structure, Interface, Object Types, Enum (Enumeration)
-    - Most common: Hit Result, Actor, 
+    - Most common: Hit Result, Actor,
 
 - Structs:
   - You can create a 'struct' (content browser -> new -> blueprints -> structure), then create some variables. Then go to blueprint event graph -> right click -> add -> 'name of structure' -> Options: Break, Make, Set...
@@ -75,7 +75,7 @@
   - If you drag&drop the variable (which has an enum type) and choose 'get', you can drag a node out of it to create `Switch on "EnumName"` where you can drag more nodes out of it based on enumerations names in your enum.
 
 - Functions:
-  - Function is basically a block of code which adds functionality to your program. 
+  - Function is basically a block of code which adds functionality to your program.
   - You can add input/output parameters for a function in its details panel
   - You can create something called 'Local Variables' in functions.
   - You can not add a delay node in functions.
@@ -97,6 +97,14 @@
   - `Loop Body`: Content to loop
   - `Completed`: What to do if loop is complete and condition is false
   - Note: avoid using loops with larger data sets (>100) and use c++ instead. Why? C++ is faster than blueprint
+
+- Functions
+  - Functions can either be Pure or Impure. The main difference is that Pure Functions promise not to modify state or the members of the class in any way, while Impure Functions are free to modify state. Pure Functions are generally used for getter Functions or operators that just output a data value.
+
+- Game Instance
+  - Created by going to explorer > blueprints > more > game instance
+  - What this does is that it is referrign to the whole game application
+  - Event init -> game start
 
 ### Misc
 - Anything that can be placed in a level is called an 'Actor'
