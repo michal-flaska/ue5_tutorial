@@ -113,6 +113,11 @@
 
 - Its way better (and recommended) to use interfaces instead of casting for saving resources. But in the first parts of tutorial we are doing casting because of its simplicity
 
+- `Expose on spawn` and `instance editable` -> these allow us to edit the properties when spawning the actor (set these 2 on HealthPoints in BP_Pickup)
+  - Now when we use `SpawnActor` in blueprints, we can now edit the `HealthPoints` value directly in the `SpawnActor` node
+
+- Target Point -> https://dev.epicgames.com/documentation/en-us/unreal-engine/target-point-actors-in-unreal-engine
+
 ### Misc
 - Anything that can be placed in a level is called an 'Actor'
 - Light Movability:
