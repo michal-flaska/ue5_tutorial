@@ -106,6 +106,11 @@
   - What this does is that it is referrign to the whole game application
   - Event init -> game start
 
+- Timers
+  - We have a lot of options here (`set timer by event`, `set timer by function`, etc)
+    - However, `set timer by event` is pointless (as the guy in tutorial said), because you can actually refer to the event by using the function itself so, most of the time you will be using `set timer by function name`.
+  - Difference between delay and timer is that timer is going to be very precise (usually up to micro or even nano seconds)
+
 ### Misc
 - Anything that can be placed in a level is called an 'Actor'
 - Light Movability:
