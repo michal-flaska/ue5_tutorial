@@ -137,6 +137,8 @@
 - In widget blueprint designer view, we have an option to change resolution. There are two most used options: `fill screen` and `custom`.
   - `custom` is mostly used when you have stuff like dropdown and youre making a child widget or something
 
+- you can use console command nodes in blueprints. just type `console command`
+
 ### Misc
 - Anything that can be placed in a level is called an 'Actor'
 - Light Movability:
