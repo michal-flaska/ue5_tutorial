@@ -118,6 +118,22 @@
 
 - Target Point -> https://dev.epicgames.com/documentation/en-us/unreal-engine/target-point-actors-in-unreal-engine
 
+- Components are objects so you can just get them as variables
+
+- Raycasting
+  - we'll mostly use `Line Trace By Channel`
+    - `Line trace by channel` is basically a function which lets us draw a line from a given starting point to a given ending point, and in between these 2 points, if it hits anything, we are going to get a `hit result` ()
+  - trace channel option -> you can use it to ignore certain objects
+
+- When converting some input variable types to another, we get options to change to Float single precision or double precision. Now what do these mean? The difference between converting to float single precision and converting to float double precision in UE5. 2 Blueprint is that the former converts a 32-bit number to a 32-bit floating point number, while the latter converts a 32-bit number to a 64-bit floating point number.
+
+- if you go to details of selected object in blueprint viewport, you can change the collision presets
+  - this is useful for example in line tracing (raycasting)
+
+- Unreal uses centimeters as primary
+
+- We should use `get player camera manager` if there are multiple cameras in our player
+
 ### Misc
 - Anything that can be placed in a level is called an 'Actor'
 - Light Movability:
