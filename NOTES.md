@@ -99,7 +99,7 @@
   - Note: avoid using loops with larger data sets (>100) and use c++ instead. Why? C++ is faster than blueprint
 
 - Functions
-  - Functions can either be Pure or Impure. The main difference is that Pure Functions promise not to modify state or the members of the class in any way, while Impure Functions are free to modify state. Pure Functions are generally used for getter Functions or operators that just output a data value.
+  - Functions can either be Pure or Impure. The main difference is that Pure Functions promise not to modify state or the members of the class in any way, while Impure Functions are free to modify state. <ins>**Pure Functions are generally used for getter Functions or operators that just output a data value.**</ins>
 
 - Game Instance
   - Created by going to explorer > blueprints > more > game instance
@@ -138,6 +138,9 @@
   - `custom` is mostly used when you have stuff like dropdown and youre making a child widget or something
 
 - you can use console command nodes in blueprints. just type `console command`
+
+- blueprint function library
+  - let's say you wanted to have some functions which might be used in multiple places but are not relative to a certain object so in that case you would use a blueprint function Library
 
 ### Misc
 - Anything that can be placed in a level is called an 'Actor'
