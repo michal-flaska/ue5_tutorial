@@ -5,6 +5,6 @@ Tutorial: https://youtu.be/6UlU_FsicK8?si=XmViRdgQcCJIb4xO
 
 Check more info in [NOTES](./NOTES.md).
 
-# TOOK A BREAK AT [3:45:45](https://youtu.be/6UlU_FsicK8?t=13545)
+# TOOK A BREAK AT [4:21:32](https://youtu.be/6UlU_FsicK8?t=15692)
 
-was called to some random ass school event
+gonna go into c++ for unreal finally.
