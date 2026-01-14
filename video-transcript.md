@@ -1,6 +1,90 @@
+# hello
+
 i created a transcript of the video so i dont want to spend a lot of time when i get lost when i can find the text faster. This is not here to recreate/replace the original video.
 
 ---
+
+## video chapter timestamps
+
+⌨️ (0:00:00) Introduction
+⌨️ (0:01:31) System Requirements
+⌨️ (0:03:34) Installing The Engine
+⌨️ (0:06:12) Creating A Project
+⌨️ (0:09:54) Unreal Editor Basics
+⌨️ (0:23:27) Creating Levels
+⌨️ (0:29:50) Landscapes
+⌨️ (0:35:42) Blueprints
+⌨️ (0:42:57) Blueprint: Variables
+⌨️ (0:49:42) Blueprint: Structures
+⌨️ (0:54:37) Blueprint: Enumerations
+⌨️ (0:59:36) Blueprint: Functions
+⌨️ (1:05:58) Blueprint: Macros
+⌨️ (1:09:25) Blueprint: Collapsed Graphs
+⌨️ (1:12:56) Blueprint: Branching
+⌨️ (1:14:51) Blueprint: Switch
+⌨️ (1:17:43) Blueprint: While Loop
+⌨️ (1:21:23) Blueprint: For Loop
+⌨️ (1:25:10) Blueprint: Array
+⌨️ (1:28:24) Blueprint: Flip-Flop
+⌨️ (1:30:21) Blueprint: Do-Once
+⌨️ (1:32:25) Object Oriented Programming
+⌨️ (1:39:29) Blueprint: Classes
+⌨️ (1:49:49) Blueprint: Actors
+⌨️ (2:02:41) Blueprint: Casting
+⌨️ (2:05:01) Basic Inheritance Hierarchy
+⌨️ (2:08:32) Blueprint: Character
+⌨️ (2:31:52) Blueprint: Timer (Example)
+⌨️ (2:37:05) Action Mappings
+⌨️ (2:43:26) Expose On Spawn
+⌨️ (2:46:38) Interaction System
+⌨️ (2:53:09) Blueprint: Linetrace (Raycast)
+⌨️ (3:03:17) Blueprint: UI
+⌨️ (3:32:12) Blueprint Function Library
+⌨️ (3:35:17) Plugins (Basics)
+⌨️ (3:40:39) Modelling Tools
+⌨️ (3:46:45) Static Mesh
+⌨️ (3:48:13) Nanite
+⌨️ (3:50:02) Materials
+⌨️ (4:05:31) Skeletal Mesh and Anim BP
+⌨️ (4:22:32) C++ Prerequisites
+⌨️ (4:39:37) C++: Basics
+⌨️ (4:45:04) Advanced Inheritance Hierarchy
+⌨️ (4:55:28) C++: Variables
+⌨️ (4:58:11) C++: Functions
+⌨️ (5:00:04) C++: UCLASS, UPROPERTY, UFUNCTION
+⌨️ (5:09:11) C++: USTRUCT
+⌨️ (5:17:52) C++: Using Unreal’s Functions
+⌨️ (5:22:10) C++: Enumerations
+⌨️ (5:24:53) Converting Blueprint To C++
+⌨️ (5:40:52) Blueprint Interface
+⌨️ (5:46:38) C++ Interface
+⌨️ (5:54:40) BlueprintImplementableEvent
+⌨️ (5:57:02) BlueprintNativeEvent
+⌨️ (6:01:40) C++: Array
+⌨️ (6:11:30) C++: Map
+⌨️ (6:17:31) Actor (Advanced)
+⌨️ (6:39:54) Character(Advanced)
+⌨️ (6:50:43) Player Controller(Advanced)
+⌨️ (6:52:46) Game Mode (Advanced)
+⌨️ (6:56:47) Game State (Advanced)
+⌨️ (7:06:17) Game Instance
+⌨️ (7:15:20) Creating Plugins
+⌨️ (7:33:53) Third Party Libraries(Static)
+⌨️ (7:51:42) Third Party Libraries(DLL)
+⌨️ (8:05:29) Networking
+⌨️ (8:07:06) Create/Join Sessions
+⌨️ (8:15:24) Network Replication
+⌨️ (8:22:48) Blueprint: Variable Replication
+⌨️ (8:27:53) Blueprint: RPCs
+⌨️ (8:43:46) Networking In C++
+⌨️ (9:01:22) Unreal Engine Source
+⌨️ (9:04:54) Switching Engine Versions
+⌨️ (9:12:11) Packaging
+⌨️ (9:17:13) BONUS
+
+---
+
+## transcript
 
 00:00:00
 un rail engine is a 3D computer Graphics game engine that has been used to create many popular games in this full course for beginners surov will teach you how to use Unreal Engine 5 surov has seven years of game development experience and has developed multiple games hi there game devs welcome to my beginner to Advanced game development course on Unreal Engine 5 in this course we'll be taking a deep dive into the engine and hopefully by the end of this course you would be able to create a game
