@@ -142,6 +142,10 @@
 - blueprint function library
   - let's say you wanted to have some functions which might be used in multiple places but are not relative to a certain object so in that case you would use a blueprint function Library
 
+- plugins
+  - let's say we have a plugin which you install to the engine but you actually don't have the appropriate version, so the way you actually go about upgrading your version is actually really simple
+    - you just come into your uh Unreal Engine installation directory then engine plugins and the marketplace ones will be in the marketplace folder and for example I can right click on this up plugin file and I can actually open it with any text editor, then inside the up plugin file you should see the engine version let's say it was there for 4.27 and you're using five and if you want to make it compatible and let's say you're getting build errors you could just go ahead and change 4.27 to 5.0.0
+
 ### Misc
 - Anything that can be placed in a level is called an 'Actor'
 - Light Movability:
@@ -151,3 +155,7 @@
     - Stationary: Can only change color and intensity in-game, but cant move
     - Movable: Can be moved and changed in-game
 - 'vice versa' means 'the other way around' in english
+
+---
+
+using the [LE Extended Standard Lib](https://fab.com/s/193de04b5d28)
