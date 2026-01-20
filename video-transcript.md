@@ -5,7 +5,7 @@ i created a transcript of the video so i dont want to spend a lot of time when i
 ---
 
 ## video chapter timestamps
-
+```
 ⌨️ (0:00:00) Introduction
 ⌨️ (0:01:31) System Requirements
 ⌨️ (0:03:34) Installing The Engine
@@ -81,6 +81,7 @@ i created a transcript of the video so i dont want to spend a lot of time when i
 ⌨️ (9:04:54) Switching Engine Versions
 ⌨️ (9:12:11) Packaging
 ⌨️ (9:17:13) BONUS
+```
 
 ---
 
